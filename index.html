@@ -1,31 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
-    <title>Tela Inicial</title>
+    <script src="dados.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>ABACATECH - Sua loja de tecnologia</title>
 </head>
 
 <body>
     <div class="center">
-        <div class="row">
-          
+
+        <div class="topo">
+            <a class="logo" href="index.html">ABACATECH</a>
+            <div class="menu">
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="carrinho.html">Carrinho (<span id="contador">0</span>)</a>
+                <button class="btn" id="btnTema">Mudar Tema</button>
+            </div>
+        </div>
+
+        <div class="hero">
             <div class="titulo">
                 <h1>ABACATECH - SUA LOJA DE TECNOLOGIA</h1>
             </div>
+            <p>Fones, relógios e energia portátil: tecnologia útil para o seu dia a dia, com preço justo.</p>
+            <a class="btn destaque" href="produtos.html">Ver produtos</a>
         </div>
-        <div class="column">
-            <div class="menu_vertical">
-                <button class="btn" script.js>Mudar Tema</button>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem odio alias nam! Aliquid
-                aspernatur assumenda quasi labore tempore recusandae, corporis ratione laborum porro, ipsa impedit!
-                Soluta ipsum sint quis doloremque!
+
+        <div class="conteudo">
+            <h2>Como funciona a simulação</h2>
+            <div class="row passos">
+                <div class="passo">
+                    <span class="numero">1</span>
+                    <h3>Escolha</h3>
+                    <p>Na tela de produtos, use + e − para definir quantas unidades de cada item você quer.</p>
+                </div>
+                <div class="passo">
+                    <span class="numero">2</span>
+                    <h3>Confira</h3>
+                    <p>Veja a quantidade, o valor de cada produto e o total da compra.</p>
+                </div>
+                <div class="passo">
+                    <span class="numero">3</span>
+                    <h3>Confirme</h3>
+                    <p>Confirme e receba o número do pedido. Nenhum pagamento é feito de verdade.</p>
+                </div>
             </div>
-            
         </div>
+
+        <footer>
+            <p>Desenvolvido por Jocilfran Gabriel Gomes de França</p>
+        </footer>
 
     </div>
 </body>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="dados.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="carrinho.js" defer></script>
+    <title>Resumo da compra - ABACATECH</title>
+</head>
+
+<body>
+    <div class="center">
+
+        <div class="topo">
+            <a class="logo" href="index.html">ABACATECH</a>
+            <div class="menu">
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="carrinho.html">Carrinho (<span id="contador">0</span>)</a>
+                <button class="btn" id="btnTema">Mudar Tema</button>
+            </div>
+        </div>
+
+        <div class="conteudo estreito">
+            <h2>Resumo da compra</h2>
+
+            <div class="caixa" id="resumo"></div>
+
+            <div class="botoes" id="botoesResumo">
+                <a class="btn" href="produtos.html">Alterar quantidades</a>
+                <button class="btn destaque" onclick="confirmarCompra()">Confirmar compra</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desenvolvido por Jocilfran Gabriel Gomes de França</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>

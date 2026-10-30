@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="dados.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="produtos.js" defer></script>
+    <title>Produtos - ABACATECH</title>
+</head>
+
+<body>
+    <div class="center">
+
+        <div class="topo">
+            <a class="logo" href="index.html">ABACATECH</a>
+            <div class="menu">
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="carrinho.html">Carrinho (<span id="contador">0</span>)</a>
+                <button class="btn" id="btnTema">Mudar Tema</button>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h2>Produtos</h2>
+            <p class="suave">Escolha as quantidades. Use 0 para não comprar um produto.</p>
+
+            <div class="row produtos" id="listaProdutos"></div>
+
+            <div class="barra">
+                <span id="barraResumo"></span>
+                <a class="btn destaque" href="carrinho.html">Simular compra</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desenvolvido por Jocilfran Gabriel Gomes de França</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
